@@ -107,7 +107,7 @@ class CrispyFieldNode(template.Node):
             else:
                 css_class = class_name
                 
-            if template_pack == "bootstrap4" and not is_multivalue(field):
+            if template_pack == "gbwbootstrap4" and not is_multivalue(field):
                 if not is_checkbox(field):
                     css_class += " form-control"
                     if is_file(field):
